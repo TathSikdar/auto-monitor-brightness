@@ -2,8 +2,8 @@
 
 ## Materials:
 1. **Arduino nano**/Arduino uno/ESP8266/ESP32 (Anything better than an arduino nano is overkill and is bigger in size and therefore more visually obtrusive)
-2. LDR (Used a **2k-5k** (GL5506))(Anything higher is overkill unless your using a lower ohm resistor)
-3. resistor (Used a **5.1K ohm**)(Higher resistors offer greater precision)
+2. LDR (I Used a **2k-5k** (GL5506))(Anything higher is overkill unless your using a lower ohm resistor)
+3. resistor (I Used a **5.1K ohm**)(Higher resistors offer greater precision)
 4. (Schematics should also be posted)
 
 ## Arduino code:
