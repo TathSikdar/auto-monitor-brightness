@@ -14,4 +14,4 @@ This formula will need to be changed from monitor to monitor (I use a Dell P2419
 This monitor brightness % is then monitored for changes and written to serial bus when changes are detected based on **PercentageBrightnessChangeThreshold** (The difference in monitor brightness at which the program will write new brightness % value to serial bus). 
 
 ## Python code:
-Changes monitor brightness based on % brightness sent by Arduino using PySerial and PyScreen_Brightness_Control library. **Make sure to change com port to the same one used by the Arduino** (Ex. port = COM7  <---All caps). The program also prints monitor brightness % to the terminal everytime it makes a change (Incase you want to check the brightenss values the program has changed to), but that can be removed.
+Changes monitor brightness based on % brightness sent by Arduino using PySerial and PyScreen_Brightness_Control library. The program also prints monitor brightness % to the terminal everytime it makes a change (Incase you want to check the brightenss values the program has changed to), but that can be removed.
